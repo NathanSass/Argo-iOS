@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:../EventTableViewCell.swift">
+   </FileRef>
+   <FileRef
+      location = "group:../EventTableViewController.swift">
+   </FileRef>
+   <FileRef
       location = "self:Argo-iOS.xcodeproj">
    </FileRef>
 </Workspace>

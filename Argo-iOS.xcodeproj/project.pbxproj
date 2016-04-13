@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		0C1AF7811CBE07020096AE78 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1AF7801CBE07020096AE78 /* AppDelegate.swift */; };
 		0C1AF7841CBE07020096AE78 /* Argo_iOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0C1AF7821CBE07020096AE78 /* Argo_iOS.xcdatamodeld */; };
-		0C1AF7861CBE07020096AE78 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1AF7851CBE07020096AE78 /* ViewController.swift */; };
 		0C1AF7891CBE07020096AE78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C1AF7871CBE07020096AE78 /* Main.storyboard */; };
 		0C1AF78B1CBE07020096AE78 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C1AF78A1CBE07020096AE78 /* Images.xcassets */; };
 		0C1AF78E1CBE07020096AE78 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C1AF78C1CBE07020096AE78 /* LaunchScreen.xib */; };
 		0C1AF79A1CBE07020096AE78 /* Argo_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1AF7991CBE07020096AE78 /* Argo_iOSTests.swift */; };
+		0C1AF7A41CBE077C0096AE78 /* EventTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1AF7A31CBE077C0096AE78 /* EventTableViewController.swift */; };
+		0C1AF7A61CBE0A3F0096AE78 /* EventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1AF7A51CBE0A3F0096AE78 /* EventTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,13 +32,14 @@
 		0C1AF77F1CBE07020096AE78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C1AF7801CBE07020096AE78 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0C1AF7831CBE07020096AE78 /* Argo_iOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Argo_iOS.xcdatamodel; sourceTree = "<group>"; };
-		0C1AF7851CBE07020096AE78 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0C1AF7881CBE07020096AE78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0C1AF78A1CBE07020096AE78 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		0C1AF78D1CBE07020096AE78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		0C1AF7931CBE07020096AE78 /* Argo-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Argo-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C1AF7981CBE07020096AE78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C1AF7991CBE07020096AE78 /* Argo_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Argo_iOSTests.swift; sourceTree = "<group>"; };
+		0C1AF7A31CBE077C0096AE78 /* EventTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EventTableViewController.swift; path = "Argo-iOS.xcodeproj/../EventTableViewController.swift"; sourceTree = SOURCE_ROOT; };
+		0C1AF7A51CBE0A3F0096AE78 /* EventTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EventTableViewCell.swift; path = "Argo-iOS.xcodeproj/../EventTableViewCell.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,8 +81,9 @@
 		0C1AF77D1CBE07020096AE78 /* Argo-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				0C1AF7A51CBE0A3F0096AE78 /* EventTableViewCell.swift */,
+				0C1AF7A31CBE077C0096AE78 /* EventTableViewController.swift */,
 				0C1AF7801CBE07020096AE78 /* AppDelegate.swift */,
-				0C1AF7851CBE07020096AE78 /* ViewController.swift */,
 				0C1AF7871CBE07020096AE78 /* Main.storyboard */,
 				0C1AF78A1CBE07020096AE78 /* Images.xcassets */,
 				0C1AF78C1CBE07020096AE78 /* LaunchScreen.xib */,
@@ -215,8 +218,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C1AF7861CBE07020096AE78 /* ViewController.swift in Sources */,
+				0C1AF7A61CBE0A3F0096AE78 /* EventTableViewCell.swift in Sources */,
 				0C1AF7841CBE07020096AE78 /* Argo_iOS.xcdatamodeld in Sources */,
+				0C1AF7A41CBE077C0096AE78 /* EventTableViewController.swift in Sources */,
 				0C1AF7811CBE07020096AE78 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
